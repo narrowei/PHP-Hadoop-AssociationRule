@@ -1,0 +1,17 @@
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+### Composer ###
+composer.phar
+composer.lock
+vendor/
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride

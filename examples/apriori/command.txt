@@ -1,0 +1,3 @@
+hadoop jar $hadoop_tool/hadoop-streaming-2.7.2.jar -input word.txt -output output -mapper 'php mapper.php' -reducer 'php reducer.php'
+php mapper.php < word.txt | sort | php reducer.php
+hadoop jar /usr/local/Cellar/hadoop/2.7.2/libexec/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar  -input word.txt -output output -mapper 'php mapper.php' -reducer 'php reducer.php'
